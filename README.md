@@ -1,2 +1,1 @@
-# 머신러닝을 이용한 주식매매
-## 4차동학개미운동
+[notion README.md](https://expensive-treatment-cae.notion.site/README-f6fa4bf0cb8e4ec29a0109401db87619)
