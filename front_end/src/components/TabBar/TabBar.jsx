@@ -37,18 +37,12 @@ export default function TabBar({
     setCurrentTab(text);
   };
 
-  const setting = {
-    종합정보: "detail",
-    뉴스: "news",
-    "종목토론 게시판": "board",
-  };
 
   const paintTabItem = tabInfo.map((text, index) => (
     <TabItem
       key={index}
       handleOnClick={handleOnClick}
       text={text}
-      link={setting[text] ? baseURL + `/${setting[text]}` : ""}
     />
   ));
 
